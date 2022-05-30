@@ -1,0 +1,192 @@
+html,body {
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    background-color:black;
+}
+
+/* header */
+header > nav.navbar-dark > span.navbar-text {
+    color: gainsboro;
+    padding:0;
+    font-size:15px;
+}
+
+header > nav.navbar-light {
+    padding:0 1.25em 0 3.75em;
+}
+
+header > nav.navbar-light > .navbar-brand {
+    margin:0;
+}
+
+header > nav.navbar-light > .navbar-brand > img.logo {
+    width:7em;
+    padding-left: 1.25em;
+}
+
+header > nav > button {
+    margin-right: 0.625em;
+}
+
+header > nav.navbar-light > div.navbar-collapse > div.navbar-nav > a.a {
+    padding:0 6.25em 0 0.625em;
+    font-size:17px;
+    font-family: 'Carrois Gothic SC';
+}
+
+header > nav.navbar-light > div.navbar-collapse > div.navbar-nav > div.dropdown > a.a {
+    padding:0 6.25em 0 0.625em;
+    font-size:17px;
+    font-family: 'Carrois Gothic SC';
+}
+
+header > nav.navbar-light > div.navbar-collapse > div.navbar-nav > a.b {
+    padding:0 5em 0 0.625em;
+    font-size:17px;
+    font-family: 'Carrois Gothic SC';
+}
+
+/* section */
+section.container {
+    width:100%;
+    margin:0;
+    padding:0;
+    max-width:100%;
+}
+
+section.container > div.img {
+    position:relative;
+}
+
+section.container > div.img > img {
+    width:100%;
+    height:21.875em;
+    margin:0;
+    padding:0;
+}
+
+div.img > div.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(82, 82, 82, 0.74);
+    opacity:1;
+}
+
+div.img > div.overlay > div.text {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-family: 'Carrois Gothic SC';
+}
+
+/* page content sections */
+div.page-content {
+    padding:30px 0px 40px 15px;
+}
+
+div.page-content > div.sections {
+    margin-top:20px;
+}
+
+div.page-content > div.sections > div.container-column > div.description {
+    color:white;
+}
+
+div.page-content > div.section1 > div.container {
+    background-color:rgb(255, 172, 172);
+}
+
+div.page-content > div.section2 > div.container {
+    background-color:rgb(248, 233, 164);
+}
+
+div.page-content > div.section3 > div.container {
+    background-color:rgb(188, 253, 223);
+}
+
+div.page-content > div.section3 > img {
+    margin-top:25px;
+}
+
+div.page-content > div.sections > div.container {
+    box-sizing: border-box;
+    box-shadow: rgba(49, 49, 49, 0.562) 0 0 15px;
+}
+
+div.page-content > div.section1 > div.container > div.text > h2 {
+    font-family: 'Amiko';
+    padding-top:80px;
+}
+
+div.page-content > div.section2 > div.container > div.text > h2 {
+    font-family: 'Amiko';
+    padding-top:130px;
+    line-height: 60px;
+}
+
+div.page-content > div.section3 > div.container > div.text > h2 {
+    font-family: 'Amiko';
+    padding-top:20px;
+}
+
+div.page-content > div.section3 > div.row2 {
+    width:100%;
+    background-color:white;
+}
+
+div.page-content > div.section4 {
+    background-color:transparent;
+    margin:30px 0 0 0;   
+}
+
+div.page-content > div.section4 > div.text > p{
+    font-size:18px;
+    color:white;
+}
+
+#more {
+    display:none;
+}
+
+/* footer */
+div.footer > div.bg-light {
+    padding:0;
+}
+
+div.footer > div.bg-light > .container > .navbar-brand {
+    margin:0;
+}
+
+div.footer > div.bg-light > div.footer1 > a {
+    font-family: 'Carrois Gothic SC';
+    color:rgb(153,153,153);
+    text-align: center;
+}
+
+div.footer1 > a:hover {
+    background-color: black;
+}
+
+div.footer > div.bg-light > div.container > a > img.logo {
+    width:5.5em;
+    margin-left: 1.25em;
+}
+
+div.footer > div.bg-black > .text > p {
+    margin-bottom:0px;
+    font-size: smaller;
+}
+
+div.footer > div.bg-black {
+    background-color: black;
+    margin:0;
+} 

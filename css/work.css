@@ -1,0 +1,136 @@
+html,body {
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    background-color:white;
+}
+
+/* header */
+header > nav.navbar-dark {
+    background-color: black;
+}
+
+header > nav.navbar-dark > span.navbar-text {
+    color: gainsboro;
+    padding:0;
+    font-size:15px;
+}
+
+header > nav.navbar-light {
+    padding:0px 20px 0px 60px;
+}
+
+header > nav.navbar-light > .navbar-brand {
+    margin:0;
+}
+
+header > nav.navbar-light > .navbar-brand > img.logo {
+    width:140px;
+    padding-left: 20px;
+}
+
+header > nav > button {
+    margin-right: 10px;
+}
+
+header > nav.navbar-light > div.navbar-collapse > div.navbar-nav > a.a {
+    padding:0 100px 0 10px;
+    font-size:17px;
+    font-family: 'Carrois Gothic SC';
+}
+
+header > nav.navbar-light > div.navbar-collapse > div.navbar-nav > div.dropdown > a.a {
+    padding:0 100px 0 10px;
+    font-size:17px;
+    font-family: 'Carrois Gothic SC';
+}
+
+header > nav.navbar-light > div.navbar-collapse > div.navbar-nav > a.b {
+    padding:0 80px 0 10px;
+    font-size:17px;
+    font-family: 'Carrois Gothic SC';
+}
+
+/*content*/
+div.page-content {
+    padding:40px 0 40px 0;
+    animation: colour 8s infinite;
+}
+
+@keyframes colour{
+    0%  {background:rgb(250, 243, 243);}
+    30% {background:rgb(255, 172, 172);}
+    70% {background:rgb(248, 233, 164);}
+    100% {background-color:rgb(188, 253, 223);}
+}
+
+div.page-content > div.sections > div.container > div.title {
+    width:100%;
+    margin-bottom:15px;
+    padding:0;
+}
+
+div.page-content > div.sections > div.container > div.title > h1 {
+    font-family: 'Carrois Gothic SC';
+}
+
+div.page-content > div.sections > div.container > div.row2 {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+div.page-content > div.sections > div.container > div.row2 > div.container {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+div.page-content > div.sections {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+div.footer > div.bg-light {
+    padding:0;
+}
+
+div.footer > div.bg-light > .container > .navbar-brand {
+    margin:0;
+}
+
+div.footer > div.bg-light > div.footer1 > a {
+    font-family: 'Carrois Gothic SC';
+    color:rgb(153,153,153);
+    text-align: center;
+}
+
+div.footer1 > a:hover {
+    background-color: black;
+}
+
+div.footer > div.bg-light > div.container > a > img.logo {
+    width:120px;
+    padding-left: 20px;
+}
+
+div.footer > div.bg-black > .text > p {
+    margin-bottom:0px;
+    font-size: smaller;
+}
+
+div.footer > div.bg-black {
+    background-color: black;
+    margin:0;
+} 
